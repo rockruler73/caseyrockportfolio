@@ -1,0 +1,350 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('Super-Legend-Boy.eot'); /* IE9 Compat Modes */
+  src: url('Super-Legend-Boy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Super-Legend-Boy.woff') format('woff'), /* Modern Browsers */
+       url('superlegendboy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Super-Legend-Boy.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@keyframes radicalcolors {
+  0%   {color: red;}
+  12% {color: orange;}
+  25%  {color: yellow;}
+  37% {color: purple;}
+  50%  {color: blue;}
+  67% {color: cornflowerblue; }
+  75% {color: indigo; }
+  100% {color: green;}
+}
+
+a {
+	color: cornflowerblue;
+}
+
+body { 
+	font-size: 140%; 
+	font-family: "Georgia", Times, serif; 
+	background-color: #3550e8;
+	line-height: 1.6;
+}
+
+p, li {
+	font-family: "Georgia", Times, serif;
+	color: #FFFFFF;
+}
+
+.description {
+	font-weight: bold;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'MyWebFont'; 
+	color: #8be5ff;
+}
+
+#title {
+	animation-name: radicalcolors;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	font-size:140%;
+}
+
+.block {
+	display: block
+}	
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8, for some reason */
+}
+
+#partydiv {
+	height: inherit;
+}
+
+.roundedcorners {
+  display: block;
+  border-radius: 20px;
+  background: #73AD21;
+  padding: 20px;
+  width: 80%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.roundedcorners-sm {
+  border-radius: 10px;
+  background: #73AD21;
+  padding: 5px;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.roundedcorners-title {
+  border-radius: 10px;
+  background: #73AD21;
+  padding: 5px;
+  width: 128px;
+  height: 128px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.expandable {
+	text-align: left;
+}
+
+.expandable h2 {
+	cursor: pointer;
+}
+
+.expandable div {
+	display: none;
+}
+
+.nested-expandable img {
+	cursor: pointer;
+}
+
+.nested-expandable div {
+	display: none;
+	text-align: center;
+}
+
+#radio {
+	cursor: pointer;
+}
+
+.container {
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+figure {
+	display: block;
+}
+
+#bottombar {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.margins {
+	margin-top: 50px;
+}
+
+.skilllist {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.partyoff{
+  display: none;
+}
+
+.partyon {
+  display: block;
+  border-radius: 60%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
+  -moz-animation: moveX 2s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
+  -o-animation: moveX 2s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
+  animation: moveX 2s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
+}
+.partyon2 {
+  display: block;
+  border-radius: 60%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 3s linear 0s infinite alternate, moveY 12s linear 0s infinite alternate;
+  -moz-animation: moveX 3s linear 0s infinite alternate, moveY 12s linear 0s infinite alternate;
+  -o-animation: moveX 3s linear 0s infinite alternate, moveY 12s linear 0s infinite alternate;
+  animation: moveX 3s linear 0s infinite alternate, moveY 12s linear 0s infinite alternate;
+}
+.partyon3 {
+  display: block;
+  border-radius: 60%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 4s linear 0s infinite alternate, moveY 6s linear 0s infinite alternate;
+  -moz-animation: moveX 4s linear 0s infinite alternate, moveY 6s linear 0s infinite alternate;
+  -o-animation: moveX 4s linear 0s infinite alternate, moveY 6s linear 0s infinite alternate;
+  animation: moveX 4s linear 0s infinite alternate, moveY 6s linear 0s infinite alternate;
+}
+.partyon4 {
+  display: block;
+  border-radius: 60%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 1.5s linear 0s infinite alternate, moveY 5s linear 0s infinite alternate;
+  -moz-animation: moveX 1.5s linear 0s infinite alternate, moveY 5s linear 0s infinite alternate;
+  -o-animation: moveX 1.5s linear 0s infinite alternate, moveY 5s linear 0s infinite alternate;
+  animation: moveX 1.5s linear 0s infinite alternate, moveY 5s linear 0s infinite alternate;
+}
+.partyon5 {
+  display: block;
+  border-radius: 60%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 6s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+  -moz-animation: moveX 6s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+  -o-animation: moveX 6s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+  animation: moveX 6s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+}
+.partyon6 {
+  display: block;
+  border-radius: 60%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 5.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+  -moz-animation: moveX 5.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+  -o-animation: moveX 5.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+  animation: moveX 5.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+}
+.partyon7 {
+  display: block;
+  border-radius: 60%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 4.4s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+  -moz-animation: moveX 4.4s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+  -o-animation: moveX 4.4s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+  animation: moveX 4.4s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+}
+.partyon8 {
+  display: block;
+  border-radius: 60%;
+  background-color: #999999;
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 9s linear 0s infinite alternate;
+  -moz-animation: moveX 2s linear 0s infinite alternate, moveY 9s linear 0s infinite alternate;
+  -o-animation: moveX 2s linear 0s infinite alternate, moveY 9s linear 0s infinite alternate;
+  animation: moveX 2s linear 0s infinite alternate, moveY 9s linear 0s infinite alternate;
+}
+
+
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 90%; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 90%; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 90%; }
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 90%; }
+}
+
+/*
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 100%; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 100%; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 100%; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 100%; }
+}
+*/
+
+@media only screen and (max-width: 768px) {
+	.container {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	h1, h2, h3, h4 {
+		font-size: 120%;
+	}
+	
+	h5 {
+		
+		font-size: 87%;
+	}
+	
+	.showoff {
+		display: none;
+	}
+	
+	body { 
+		font-size: 100%; 
+		font-family: "Georgia", Times, serif; 
+		background-color: #3550e8;
+		line-height: 1.1;
+		
+	}
+	
+	a {
+		color: cornflowerblue;
+	}
+	
+	p{
+		color: #FFFFFF;
+	}
+	
+	.roundedcorners {
+	  border-radius: 15px;
+	  background: #73AD21;
+	  padding: 8px;
+	  width: 80%;
+	  height: 200px;
+	}
+
+	.roundedcorners-title {
+		display: none;
+	}
+	
+	@-webkit-keyframes moveX {
+	  from { left: 0; } to { left: 90%; }
+	}
+	@-moz-keyframes moveX {
+	  from { left: 0; } to { left: 90%; }
+	}
+	@-o-keyframes moveX {
+	  from { left: 0; } to { left: 90%; }
+	}
+	@keyframes moveX {
+	  from { left: 0; } to { left: 90%; }
+	}
+
+/*
+	@-webkit-keyframes moveY {
+	  from { top: 0; } to { top: 100%; }
+	}
+	@-moz-keyframes moveY {
+	  from { top: 0; } to { top: 100%; }
+	}
+	@-o-keyframes moveY {
+	  from { top: 0; } to { top: 100%; }
+	}
+	@keyframes moveY {
+	  from { top: 0; } to { top: 100%; }
+	}
+*/
+
+}
