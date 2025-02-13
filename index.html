@@ -340,7 +340,7 @@ update: YUP, IT WORKS NOW! YAY! 9/23/2020-->
 	song.loop = true;
 	
    
-	
+	/*
 	var getGif = function() {
 	var gif = [];
 	$('img').each(function() {
@@ -350,7 +350,19 @@ update: YUP, IT WORKS NOW! YAY! 9/23/2020-->
 	return gif;
 	}
 	var gif = getGif();
-	
+	*/
+
+	var getGif = function() {
+	var gif = [];
+	$('img').each(function() {
+		var data = $(this).data('alt');
+		if(data){
+			gif.push(data);
+		}
+	});
+	return gif;
+	}
+	var gif = getGif();
 	
 	//preload gifs
 	var image = [];
