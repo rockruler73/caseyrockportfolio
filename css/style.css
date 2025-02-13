@@ -19,13 +19,13 @@
 }
 
 a {
-	color: #D4D4F7;
+	color: #FFFFFF;
 }
 
 body { 
 	font-size: 140%; 
 	font-family: "Georgia", Times, serif; 
-	background-color: #3550e8;
+	background-color: #0026ff;
 	line-height: 1.6;
 }
 
@@ -41,12 +41,12 @@ p, li {
 
 h1, h2, h3, h4, h5 {
 	font-family: 'MyWebFont'; 
-	color: #8be5ff;
+	color: #FFFFFF;
 }
 
 h6 {
   font-family: 'MyWebFont';
-  color: #D4D4F7;
+  color: #FFFFFF;
 }
 
 #title {
